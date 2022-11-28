@@ -12,7 +12,7 @@ function App() {
           NoSocial is a web3 social platform, which allows users to freely trade their social behavior.
         </p>
         <footer className="App-footer">
-          <a className="App-button" href="https://github.com/nosocialxyz" target="_blank">Github</a>
+          <a className="App-button" href="https://github.com/nosocialxyz" target="_blank" rel="noopener noreferrer">Github</a>
         </footer>
       </div>
     </div>
