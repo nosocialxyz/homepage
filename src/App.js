@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+      <div className="App-container">
+        <header className="App-header">
+          <h1>🧬</h1>
+          <h2 className="App-name">No$ocial</h2>
+        </header>
+        <p className="App-content">
+          NoSocial is a web3 social platform, which allows users to freely trade their social behavior.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <footer className="App-footer">
+          <a className="App-button" href="https://github.com/nosocialxyz" target="_blank">Github</a>
+        </footer>
+      </div>
     </div>
   );
 }
