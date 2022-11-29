@@ -1,5 +1,5 @@
 .App {
-  background-color: #282c34;
+  background-color: black;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -11,7 +11,7 @@
   max-width: 600px;
   padding: 32px 16px;
   height: fit-content;
-  background-color: #282c34;
+  background-color: black;
 }
 
 .App-header {
